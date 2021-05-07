@@ -1,0 +1,6 @@
+From alpine
+
+RUN apk add --update redis
+
+CMD ["Redis-server"]
+
